@@ -21,11 +21,10 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.required_ruby_version = '>= 2.1.0'
 
-  s.add_dependency('faraday', '>= 0.9.1')
+  s.add_dependency('faraday', '~> 0.10')
   s.add_dependency('multi_json', '>= 1.11.0')
 
   s.add_development_dependency 'rake'
   s.add_development_dependency "rspec", "3.5.0"
   s.add_development_dependency 'webmock', '~> 1.21.0'
-
 end
